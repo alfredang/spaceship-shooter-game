@@ -1,10 +1,25 @@
 # 🚀 Spaceship Shooter Game
 
-A fast-paced space shooter built with vanilla HTML5 Canvas and JavaScript. No frameworks, no dependencies — just pure browser gaming.
+A fast-paced space shooter built with vanilla HTML5 Canvas and JavaScript. No frameworks, no dependencies — just pure browser gaming. Now with synthesized sound effects!
 
 ## 🎮 Play Now
 
 **[▶ Play Spaceship Shooter](https://alfredang.github.io/spaceship-shooter-game/)**
+
+## 📸 Screenshots
+
+<div align="center">
+
+### Start Screen
+![Start Screen](screenshots/start-screen.png)
+
+### Gameplay
+![Gameplay Action](screenshots/gameplay-action.png)
+
+### Mobile
+<img src="screenshots/mobile-start.png" width="280" alt="Mobile Start"> &nbsp; <img src="screenshots/mobile-gameplay.png" width="280" alt="Mobile Gameplay">
+
+</div>
 
 ## 🛸 Features
 
@@ -15,6 +30,8 @@ A fast-paced space shooter built with vanilla HTML5 Canvas and JavaScript. No fr
 - **Particle effects** — explosions, screen shake, engine glow
 - **Mobile support** — touch controls + on-screen buttons
 - **Boss fights** — every 3rd wave features a boss encounter
+- **🔊 Sound effects** — all synthesized via Web Audio API (laser shots, explosions, powerups, boss warnings, wave fanfares)
+- **Mute toggle** — sound on/off button in the top-right corner
 
 ## 🎯 Controls
 
@@ -29,6 +46,7 @@ A fast-paced space shooter built with vanilla HTML5 Canvas and JavaScript. No fr
 |-----------|---------|
 | HTML5 Canvas | Game rendering |
 | Vanilla JavaScript | Game logic |
+| Web Audio API | Synthesized sound effects |
 | CSS3 | UI overlay & effects |
 | GitHub Actions | Auto-deployment |
 
@@ -37,6 +55,7 @@ A fast-paced space shooter built with vanilla HTML5 Canvas and JavaScript. No fr
 ```
 spaceship-shooter-game/
 ├── index.html          # Complete game (single file)
+├── screenshots/        # Game screenshots
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml  # GitHub Pages deployment
